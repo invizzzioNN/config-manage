@@ -1,0 +1,8 @@
+-- Конфигурация сервера
+{ 
+    PORT = 8080, 
+    TIMEOUT = 30, 
+    MAX_CONNECTIONS = 100 
+}
+10 -> TIMEOUT;
+^[TIMEOUT + 5]
